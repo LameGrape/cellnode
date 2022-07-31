@@ -1,0 +1,13 @@
+cell nextSpace = grid.at(self.forward)
+if nextSpace.pushed or nextSpace.type == null{
+    queue move(self.forward)
+    nextSpace.call("pushed", self.forward)
+}
+
+event pushed(pos direction){
+    cell nextSpace = grid.at(direction)
+    if nextSpace.pushed or nextSpace.type == null{
+        queue move(direction)
+        nextSpace.call("pushed", direction)
+    }
+}

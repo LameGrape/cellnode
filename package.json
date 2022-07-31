@@ -1,0 +1,14 @@
+{
+  "main": "main.js",
+  "name": "cellnode",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^19.0.9"
+  }
+}

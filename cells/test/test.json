@@ -1,0 +1,6 @@
+{
+    "name": "Test Cell",
+    "description" : "Just a test for loading cells from files",
+    "texture": "cell.png",
+    "script": "script.cnode"
+}
