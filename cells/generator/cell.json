@@ -1,0 +1,8 @@
+{
+    "id": "generator",
+    "name": "Generator",
+    "description" : "Duplicates the cell behind it to the front every tick.",
+    "texture": "generator.png",
+    "script": "script.clsc",
+    "color": "#04c437"
+}

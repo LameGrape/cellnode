@@ -1,0 +1,19 @@
+cell dupeTo = grid.at(self.forward)
+cell toDupe = grid.at(self.backward)
+
+not toDupe.type == null{
+    if dupeTo.pushed or dupeTo.type == null{
+        dupeTo.call("pushed", self.forward)
+        not grid.at(self.forward).type == null{
+            queue self.forward.populate(toDupe.type)
+        }
+    }
+}
+
+event pushed(pos direction){
+    cell nextSpace = grid.at(direction)
+    if nextSpace.pushed or nextSpace.type == null{
+        queue move(direction)
+        nextSpace.call("pushed", direction)
+    }
+}

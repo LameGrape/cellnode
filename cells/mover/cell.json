@@ -1,0 +1,8 @@
+{
+    "id": "mover",
+    "name": "Mover",
+    "description" : "Moves forward every tick, pushing any blocks in front of it.",
+    "texture": "mover.png",
+    "script": "script.clsc",
+    "color": "#2248c4"
+}

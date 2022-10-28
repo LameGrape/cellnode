@@ -1,0 +1,8 @@
+{
+    "id": "push",
+    "name": "Pushable",
+    "description" : "A cell that can be pushed. Doesn't do anything on it's own.",
+    "texture": "push.png",
+    "script": "cell.js",
+    "color": "#bc9a00"
+}

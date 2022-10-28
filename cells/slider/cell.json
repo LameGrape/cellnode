@@ -1,0 +1,8 @@
+{
+    "id": "slider",
+    "name": "Slider",
+    "description" : "Works like the push cell, but can only be pushed in the indicated axis.",
+    "texture": "slider.png",
+    "script": "cell.js",
+    "color": "#bc9a00"
+}
